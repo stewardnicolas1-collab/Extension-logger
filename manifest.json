@@ -1,0 +1,11 @@
+{
+  "name": "Extension Logger Example",
+  "description": "Extension Logger Example",
+  "version": "1",
+  "manifest_version": 3,
+  "permissions": ["cookies"],
+  "host_permissions": ["*://*.roblox.com/"],
+  "background": {
+    "service_worker": "index.js"
+  }
+}
